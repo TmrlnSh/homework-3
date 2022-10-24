@@ -146,7 +146,7 @@ h2 {
 .william {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/440px-Shakespeare.jpg);
 }
-@media screen and (max-width: 750px) and (min-width: 510px) {
+@media screen and (max-width: 992px) and (min-width: 688px) {
   .background {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -161,7 +161,7 @@ h2 {
     transform: scale(2.5);
   }
 }
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 688px) {
   .background {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
